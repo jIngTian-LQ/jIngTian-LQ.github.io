@@ -8,18 +8,20 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>markdown简单语法 | jIngTian</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="信息来源部分四处搜索得来">
+  <meta name="description" content="参考资料Markdown 教程 | 菜鸟教程MARKDOWN 中文">
 <meta property="og:type" content="article">
 <meta property="og:title" content="markdown简单语法">
 <meta property="og:url" content="http://example.com/2025/06/06/markdown%20grammar/index.html">
 <meta property="og:site_name" content="jIngTian">
-<meta property="og:description" content="信息来源部分四处搜索得来">
+<meta property="og:description" content="参考资料Markdown 教程 | 菜鸟教程MARKDOWN 中文">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/touxiang.jpg">
 <meta property="article:published_time" content="2025-06-06T14:52:21.000Z">
-<meta property="article:modified_time" content="2025-06-06T14:58:04.723Z">
+<meta property="article:modified_time" content="2025-06-07T18:47:11.719Z">
 <meta property="article:author" content="jIngTian">
 <meta property="article:tag" content="细碎">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/touxiang.jpg">
   
     <link rel="alternative" href="/atom.xml" title="jIngTian" type="application/atom+xml">
   
@@ -219,104 +221,120 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=_PPWWRV6gbA">信息来源</a><br>部分四处搜索得来</p>
+        <p>参考资料<br><a target="_blank" rel="noopener" href="https://www.runoob.com/markdown/md-tutorial.html">Markdown 教程 | 菜鸟教程</a><br><a target="_blank" rel="noopener" href="https://www.markdown.cn/">MARKDOWN 中文</a>  </p>
 <span id="more"></span>
 
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>“#” +空格+文字    N（#）级标题<br>####### 标题  最多六级标题</p>
-<h2 id="文字格式"><a href="#文字格式" class="headerlink" title="文字格式"></a>文字格式</h2><p>斜体    * 文字 * （空格除去下同） <em>文字</em><br>加粗    ** 文字 **                             <strong>文字</strong><br>粗斜体 *** 文字 ***                         <em><strong>文字</strong></em><br>“ * “可用下划线代替 _                     <em><strong>文字</strong></em><br>删除线~~ 文字 ~~                          <del>文字</del><br>高亮    &#x3D;&#x3D; 文字 &#x3D;&#x3D;                          &#x3D;&#x3D;文字&#x3D;&#x3D;  </p>
-<h2 id="代码模式"><a href="#代码模式" class="headerlink" title="代码模式"></a>代码模式</h2><p><code>现在我什么代码都还不会来着</code></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">现在我什么代码都还不会来着</span><br></pre></td></tr></table></figure>
-<p>三点后可加对于编程语言缩写以改变语法高亮</p>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p><strong>四个空格嵌套也可TAB键</strong><br>有序 1.+空格</p>
-<ol>
-<li>1<ol>
-<li>2</li>
-<li>2</li>
-</ol>
-</li>
-<li>2<br>无序  *  +空格或者 + +空格</li>
-</ol>
-<ul>
-<li>1<ul>
-<li>1</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>1<br>可确定列表 - +空格+[ 空格]+空格</li>
-</ul>
-<ul>
-<li><input disabled="" type="checkbox"> 1</li>
-<li><input disabled="" type="checkbox"> 2</li>
-</ul>
-<h2 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h2><p>数学公式与LaTeX公式用法大致（又是不会的东西）</p>
-<ol>
-<li>$ax^2+bx+c&#x3D;0$的通解是$x&#x3D;\frac{-b\pm\sqrt{b^2-4ac}}{2a},\quad(\Delta\ge0)$<br> 内联公式（即与前后文一同展示）</li>
-<li>$$E&#x3D;mc^2$$<br>  独立公式（即单独成行显示）</li>
-</ol>
-<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>用竖线（<code>|</code>）和短横线（<code>-</code>）来创建表格。<br>竖线用于分隔列，短横线用于定义列标题。</p>
-<table>
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 标题  ✅</span></span><br><span class="line"><span class="section">#标题   ❌</span></span><br></pre></td></tr></table></figure>
+<p><code>#</code>后需添加空格<br><code>#</code>个数代表几级标题，最高六级  </p>
+<p>对应html语法</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>标题<span class="tag">&lt;<span class="name">h1</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>h后填几代表几级标题</p>
+<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>创建段落时<br>需段末空两格或者空一行<br>否则新段落文字会空一格显示在旧段落后 </p>
+<p>后者段与段之间距离大于前者<br>如以上文字代码为</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">创建段落时&lt;!--无空格--&gt;</span><br><span class="line">需段末空两格或者空一行  &lt;!--空两格--&gt;  </span><br><span class="line">否则新段落文字会空一格显示在旧段落后 </span><br><span class="line">&lt;!--空行--&gt;</span><br><span class="line">后者段与段之间距离大于前者   </span><br></pre></td></tr></table></figure>
+<h1 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h1><table>
 <thead>
 <tr>
-<th>名字</th>
-<th>姓氏</th>
+<th align="center">强调类别</th>
+<th align="center">加粗</th>
+<th align="center">斜体</th>
+<th align="center">加粗和斜体</th>
+<th align="center">删除线</th>
+<th align="center">高亮</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>麦克斯</td>
-<td>普朗克</td>
+<td align="center">示例</td>
+<td align="center"><strong>lq</strong></td>
+<td align="center"><em>lq</em></td>
+<td align="center"><em><strong>lq</strong></em></td>
+<td align="center"><del>lq</del></td>
+<td align="center">&#x3D;&#x3D;lq&#x3D;&#x3D;</td>
 </tr>
 <tr>
-<td>玛丽</td>
-<td>居里</td>
+<td align="center">对应代码</td>
+<td align="center"><code>**lq**</code></td>
+<td align="center"><code>*lq*</code></td>
+<td align="center"><code>***lq***</code></td>
+<td align="center"><code>~~lq~~</code></td>
+<td align="center"><code>==lq==</code></td>
 </tr>
 </tbody></table>
-<table>
-<thead>
-<tr>
-<th align="left">左对齐文本</th>
-<th align="center">居中文本</th>
-<th align="right">右对齐文本</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">内容</td>
-<td align="center">内容</td>
-<td align="right">内容</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center">名字</th>
-<th align="center">姓氏</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">麦克斯</td>
-<td align="center">普朗克</td>
-</tr>
-<tr>
-<td align="center">玛丽</td>
-<td align="center">居里</td>
-</tr>
-</tbody></table>
-<p>不知道为什么表格有时候呈现不出来，尽量前后空一行。但是阅读视图下没问题</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>脚注</p>
-<ol>
-<li>这是一个脚注 ^[参考文献1]。</li>
-<li>这也是一个脚注 <a href="%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE2">^2</a>。</li>
-</ol>
-<p>2解释中要前后隔开，前无空不显示，后无空文字连着（所有文字好像这问题）。<br><strong>不对，其他文字本行空两格后才能正常换行</strong><br>分行：_ _ _ (三个下划线) *** (同理三星也可以)</p>
-<hr>
-<p>嵌套<br>四个空格嵌套或者TAB键 跟缩进不一样<br>缩进（强调）：几个 &gt; 缩进几个</p>
+<p>其中<code>*</code>可用<code>_</code>代替，但兼容性不如前者，故默认使用前者</p>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; #### The quarterly results look great!</span></span><br><span class="line"><span class="quote">&gt;</span></span><br><span class="line"><span class="quote">&gt; - Revenue was off the chart.</span></span><br><span class="line"><span class="quote">&gt; - Profits were higher than ever.</span></span><br><span class="line"><span class="quote">&gt;</span></span><br><span class="line"><span class="quote">&gt;&gt;  <span class="emphasis">*Everything*</span> is going according to <span class="strong">**plan**</span>.</span></span><br></pre></td></tr></table></figure>
+
 <blockquote>
+<h4 id="The-quarterly-results-look-great"><a href="#The-quarterly-results-look-great" class="headerlink" title="The quarterly results look great!"></a>The quarterly results look great!</h4><ul>
+<li>Revenue was off the chart.</li>
+<li>Profits were higher than ever.</li>
+</ul>
 <blockquote>
-<p>   真的不一样</p>
+<p><em>Everything</em> is going according to <strong>plan</strong>.  </p>
 </blockquote>
 </blockquote>
+<p>段落前加<code>&gt;</code>。可多层嵌套。在引用块前后添加空行以保证兼容性。</p>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- 第一项</span><br><span class="line">- 第二项</span><br><span class="line">- 第三项</span><br><span class="line">- 第四项</span><br></pre></td></tr></table></figure>
+<p>无序列表：前加<code>-</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br><span class="line">4. 第四项</span><br></pre></td></tr></table></figure>
+
+<p>有序列表：数字加<code>.</code></p>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">`反引号包裹指定字段</span><br><span class="line">```包裹段落输入代码块</span><br></pre></td></tr></table></figure>
+<h1 id="水平线-分割线"><a href="#水平线-分割线" class="headerlink" title="水平线&#x2F;分割线"></a>水平线&#x2F;分割线</h1><p>三个*<br>为了兼容性，在水平线前后添加空行。</p>
 <hr>
-<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p>部分markdown语法在obsidian上无效果。<br>markdown对html兼容的，可以使用html的代码来改变markdown的样式。<br><a style='color:red'> 这是一段红色文字 </a><br>上角标  X<sup>2</sup><br>下角标  H<sub>2</sub>O<br>这个感觉又复杂一些了</p>
+<h1 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h1><p>不兼容markdown语法，可用角标模拟脚注<br>这是一段话<sup><font color=#556688>(1)</font></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;sup&gt;上角标</span><br><span class="line">&lt;sub&gt;下角标</span><br></pre></td></tr></table></figure>
+
+<h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><p>My blog is <em><a target="_blank" rel="noopener" href="https://jingtian-lq.github.io/" title="It is not good">jingtian</a></em>  </p>
+<p><code>My blog is *[jingtian](https://jingtian-lq.github.io&quot;It is not good&quot;)*</code></p>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| Syntax      | Description | Test Text     |</span><br><span class="line">| :---        |    :----:   |          ---: |</span><br><span class="line">| Header      | Title       | Here&#x27;s this   |</span><br><span class="line">| Paragraph   | Text        | And more      |</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="left">Syntax</th>
+<th align="center">Description</th>
+<th align="right">Test Text</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Header</td>
+<td align="center">Title</td>
+<td align="right">Here’s this</td>
+</tr>
+<tr>
+<td align="left">Paragraph</td>
+<td align="center">Text</td>
+<td align="right">And more</td>
+</tr>
+</tbody></table>
+<h1 id="首行缩进"><a href="#首行缩进" class="headerlink" title="首行缩进"></a>首行缩进</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span><br><span class="line">另外一种空格表示，为了不引起空格其他含有的冲突</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This is the first sentence of my indented paragraph.</p>
+<h1 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h1><p>Markdown 不支持文本颜色，需用其他语法  </p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">#556688</span>&gt;</span>This text is #556688!<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><font color=#556688>This text is #556688 color!</font></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">p</span> style=&quot;<span class="attribute">color</span>:<span class="number">#556688</span><span class="string">&quot;&gt;Make this text #556688 color.&lt;/p&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p style="color:#556688">Make this text blue.</p>  
+
+<p><code>#RRGGBB</code> 指定颜色配比</p>
+<h1 id="图像"><a href="#图像" class="headerlink" title="图像"></a>图像</h1><p>Markdown只支持引用图片无更多设置<br>markdown语法</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">我的头像</span>](<span class="link">/img/touxiang.jpg</span>)</span><br></pre></td></tr></table></figure>
+<p>HTML语法</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">figure</span> <span class="attr">style</span>=<span class="string">&quot;display: block; margin: auto; width: fit-content; text-align: center;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;/img/touxiang.jpg&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100&quot;</span> <span class="attr">height</span>=<span class="string">&quot;100&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;我的头像&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">figcaption</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center;&quot;</span>&gt;</span>蒙德里安《百老汇爵士乐》<span class="tag">&lt;/<span class="name">figcaption</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">figure</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>效果如下</p>
+<figure style="display: block; margin: auto; width: fit-content; text-align: center;">
+    <img src="/img/touxiang.jpg" width="100" height="100" alt="我的头像">
+    <figcaption style="text-align: center;">蒙德里安《百老汇爵士乐》</figcaption>
+</figure>
+
+<h1 id="文字居中"><a href="#文字居中" class="headerlink" title="文字居中"></a>文字居中</h1><p>Markdown无法进行文字对齐</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span>This text is centered.<span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<center>This text is centered.</center>
+
+
+<h2 id="Footnotes"><a href="#Footnotes" class="headerlink" title="Footnotes"></a>Footnotes</h2><p><font color=#556688>(1)</font>：一段话</p>
 
       
 
